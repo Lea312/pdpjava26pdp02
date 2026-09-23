@@ -1,0 +1,11 @@
+package de.techfak.Part02_04_ComparingNumbers;
+
+import java.util.Scanner;
+
+public class ComparingNumbers {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+    }
+}

@@ -1,0 +1,11 @@
+package de.techfak.Part02_02_SquareRootOfSum;
+
+import java.util.Scanner;
+
+public class SquareRootOfSum {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+    }
+}
