@@ -10,7 +10,7 @@ public class NumberOfNumbers {
         while(true){
             System.out.println("Give a number:");
             int a = Integer.valueOf(scanner.nextLine());
-        if(i==0){
+        if(a==0){
             break;
         }
         i = i + a;
