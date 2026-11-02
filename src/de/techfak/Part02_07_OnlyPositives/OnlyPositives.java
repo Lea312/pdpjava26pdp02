@@ -14,7 +14,7 @@ public class OnlyPositives {
             } else if(i<0){
                 System.out.println("Unsuitable number");
             }else{
-                System.out.println(i^2);
+                System.out.println(i*i);
             }
         }
     }
