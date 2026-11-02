@@ -8,12 +8,12 @@ public class NumberOfNumbers {
         Scanner scanner = new Scanner(System.in);
         int i = 0;
         while(true){
-            System.out.println("Give a number:");
+            System.out.println("Give a number");
             int a = Integer.valueOf(scanner.nextLine());
-        if(a==0){
-            break;
-        }
-        i = Math.addExact(a,i);
+            if(a == 0){
+                break;
+            }
+            i = i + a;
         }
         System.out.println("Number of numbers: " + i);
 
