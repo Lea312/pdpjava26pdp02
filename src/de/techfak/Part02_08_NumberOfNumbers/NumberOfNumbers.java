@@ -15,6 +15,7 @@ public class NumberOfNumbers {
         }
         i = i + a;
         }
+        System.out.println("Number of numbers: " + i);
 
 
     }
