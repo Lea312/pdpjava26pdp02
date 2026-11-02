@@ -9,7 +9,7 @@ public class NumberOfNumbers {
         int i = 0;
         int a;
         while(true){
-            System.out.println("Give a number");
+            System.out.println("Give a number:");
             a = Integer.valueOf(scanner.nextLine());
             if(a == 0){
                 break;
