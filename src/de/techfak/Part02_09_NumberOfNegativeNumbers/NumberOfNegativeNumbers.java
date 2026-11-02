@@ -19,6 +19,6 @@ public class NumberOfNegativeNumbers {
             }
         }
 
-        System.out.println("Number of negative  numbers: " + i);
+        System.out.println("Number of negative numbers: " + i);
     }
 }
