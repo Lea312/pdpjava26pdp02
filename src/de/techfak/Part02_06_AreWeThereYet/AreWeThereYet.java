@@ -6,6 +6,12 @@ public class AreWeThereYet {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
+    while(true){
+        System.out.println("Give a number:");
+        int i = Integer.valueOf(scanner.nextLine());
+        if(i==4){
+            break;
+        }
+    }
     }
 }
