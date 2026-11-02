@@ -14,7 +14,7 @@ public class NumberOfNumbers {
             if(a == 0){
                 break;
             }
-            i = i + a;
+            i++;
         }
 
         System.out.println("Number of numbers: " + i);
