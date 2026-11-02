@@ -13,7 +13,7 @@ public class NumberOfNumbers {
         if(a==0){
             break;
         }
-        i = i + a;
+        i = Math.addExact(a,i);
         }
         System.out.println("Number of numbers: " + i);
 
