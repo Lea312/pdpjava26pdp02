@@ -8,5 +8,14 @@ public class FromWhereToWhere {
         Scanner scanner = new Scanner(System.in);
 
         // Write your program here
+        System.out.println("Where to?");
+        int a = Integer.valueOf(scanner.nextLine());
+        System.out.println("Where from?");
+        int b = Integer.valueOf(scanner.nextLine());
+        while(b<=a){
+            System.out.println(b);
+            b = b+1;
+        }
+
     }
 }
