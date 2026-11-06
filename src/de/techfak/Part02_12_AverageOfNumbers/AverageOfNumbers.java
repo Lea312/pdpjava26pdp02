@@ -14,7 +14,7 @@ public class AverageOfNumbers {
             a = Integer.valueOf(scanner.nextLine());
             if(a==0){
                 break;
-            }else if(a>0){
+            }else{
                 i++;
                 b = b+a;
             }

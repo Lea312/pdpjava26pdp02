@@ -15,8 +15,8 @@ public class AverageOfPositiveNumbers {
                 break;
             } else if (a>0) {
                 b = b + a;
+                i++;
             }
-            i++;
         }
         if(b<=0){
             System.out.println("Cannot calculate the average");
