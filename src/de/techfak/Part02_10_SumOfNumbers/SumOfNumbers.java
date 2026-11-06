@@ -19,7 +19,7 @@ public class SumOfNumbers {
                 i = i + a;
             }
         }
-        System.out.println("Sum of the numbers:" + i);
+        System.out.println("Sum of the numbers: " + i);
     }
 
 }
