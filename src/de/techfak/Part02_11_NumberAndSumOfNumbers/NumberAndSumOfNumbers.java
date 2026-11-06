@@ -18,5 +18,7 @@ public class NumberAndSumOfNumbers {
                 b = b + a;
             }
         }
+        System.out.println("Number of numbers: " + i);
+        System.out.println("Sum of the numbers: " + b);
     }
 }
