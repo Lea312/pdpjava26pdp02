@@ -19,7 +19,7 @@ public class AverageOfNumbers {
                 b = b+a;
             }
         }
-        double avg = b/i;
+        double avg = Double.valueOf(b)/Double.valueOf(i);
         System.out.println("Average of the numbers: " + avg);
     }
 }
