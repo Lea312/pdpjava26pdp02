@@ -18,8 +18,8 @@ public class AverageOfNumbers {
                 i++;
                 b = b+a;
             }
-            double avg = b/i;
-            System.out.println("Average of the numbers: " + avg);
         }
+        double avg = b/i;
+        System.out.println("Average of the numbers: " + avg);
     }
 }
