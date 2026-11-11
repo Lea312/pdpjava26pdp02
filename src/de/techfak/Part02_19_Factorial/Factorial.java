@@ -11,7 +11,7 @@ public class Factorial {
         if(eingabe == 0){
             eingabe = 1;
         } else {
-            for(int i = 0; i<eingabe ; i++){
+            for(int i = 0; i<=eingabe ; i++){
                 eingabe = eingabe * i;
             }
         }
