@@ -19,7 +19,7 @@ public class AdvancedAstrology {
     public static void printTriangle(int size) {
         // part 2 of the exercise
         //  System.out.println(size);
-        for(int i = 0; i<=size;i++){
+        for(int i = 1; i<=size;i++){
             printSpaces(size-i);
             printStars(i);
             System.out.println("");
