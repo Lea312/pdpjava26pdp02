@@ -6,6 +6,16 @@ public class Factorial {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
+        System.out.println("Give a number:");
+        int eingabe = Integer.valueOf(scanner.nextLine());
+        int ausgabe;
+        if(eingabe == 0){
+            ausgabe = 1;
+        } else{
+            for(int i = 0; i<eingabe ; i++){
+                ausgabe = ausgabe * i;
+            }
+        }
+        System.out.println("Factorial: " + ausgabe);
     }
 }
