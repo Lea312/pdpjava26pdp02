@@ -8,7 +8,7 @@ public class Factorial {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Give a number:");
         int eingabe = Integer.valueOf(scanner.nextLine());
-        int ausgabe;
+        int ausgabe = 0;
         if(eingabe == 0){
             ausgabe = 1;
         } else{
