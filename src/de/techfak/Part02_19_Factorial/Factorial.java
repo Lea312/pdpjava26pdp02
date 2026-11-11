@@ -14,6 +14,7 @@ public class Factorial {
             int i = 1;
             while (i <= a) {
                 b = b * i;
+                i++;
             }
         }
         System.out.println("Factorial: " + b);
