@@ -28,7 +28,11 @@ public class AdvancedAstrology {
 
     public static void christmasTree(int height) {
         // part 3 of the exercise
-        printTriangle(height);
+        for(int i = 1; i<=height;i+=2){
+            printSpaces(height-i);
+            printStars(i);
+            System.out.println("");
+        }
         int hoehe = 2;
         int breite = 3;
         for(int i= 1; i<=hoehe;i++) {
