@@ -8,14 +8,13 @@ public class Factorial {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Give a number:");
         int eingabe = Integer.valueOf(scanner.nextLine());
-        int ausgabe = 0;
         if(eingabe == 0){
-            ausgabe = 1;
-        } else{
+            eingabe = 1;
+        } else {
             for(int i = 0; i<eingabe ; i++){
-                ausgabe = ausgabe * i;
+                eingabe = eingabe * i;
             }
         }
-        System.out.println("Factorial: " + ausgabe);
+        System.out.println("Factorial: " + eingabe);
     }
 }
