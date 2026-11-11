@@ -34,7 +34,7 @@ public class RepeatingBreakingAndRemembering {
         }
         System.out.println("Thx! Bye!");
         System.out.println("Sum: " + sum);
-        System.out.println("Numbers : " + anz);
+        System.out.println("Numbers: " + anz);
         System.out.println("Average: " + Double.valueOf(sum)/Double.valueOf(anz));
         System.out.println("Even: " + even);
         System.out.println("Odd: " + odd);
