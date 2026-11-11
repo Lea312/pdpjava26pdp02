@@ -11,7 +11,7 @@ public class Reprint {
         Scanner scanner = new Scanner(System.in);
         System.out.println("How many times?");
         int number = Integer.valueOf(scanner.nextLine());
-        for(int i = 0; i<=number; i++){
+        for(int i = 0; i<number; i++){
             printText();
         }
     }
