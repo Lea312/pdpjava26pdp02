@@ -49,7 +49,7 @@ public class StarSign {
 
     public static void printTriangle(int size) {
         // fourth part of the exercise
-        for(int i= 0; i<=size; i++){
+        for(int i= 1; i<=size; i++){
             for(int a = 0; a<=i;a++) {
                 System.out.print("*");
             }
