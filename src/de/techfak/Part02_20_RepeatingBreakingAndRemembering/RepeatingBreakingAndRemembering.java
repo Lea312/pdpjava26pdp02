@@ -19,10 +19,12 @@ public class RepeatingBreakingAndRemembering {
         int anz = 0;
         int odd = 0;
         int even = 0;
-        while(i != -1){
+        while(true){
             System.out.println("Give numbers:");
             i = Integer.valueOf(scanner.nextLine());
+            if(i==-1){ break;}
             sum = sum + i;
+            System.out.println(sum);
             anz++;
             if(i % 2 == 0){
                 even++;
