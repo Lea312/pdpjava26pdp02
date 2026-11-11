@@ -7,14 +7,15 @@ public class Factorial {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Give a number:");
-        int eingabe = Integer.valueOf(scanner.nextLine());
-        if(eingabe == 0){
-            eingabe = 1;
-        } else {
-            for(int i = 1; i<=eingabe ; i++){
-                eingabe = eingabe * i;
+        int a = Integer.valueOf(scanner.nextLine());
+        int b = 1;
+        if (a==0){ a=1;}
+        else {
+            int i = 1;
+            while (i <= a) {
+                b = b * i;
             }
         }
-        System.out.println("Factorial: " + eingabe);
+        System.out.println("Factorial: " + b);
     }
 }
