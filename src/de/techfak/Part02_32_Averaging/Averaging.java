@@ -11,7 +11,7 @@ public class Averaging {
 
     public static double average(int number1, int number2, int number3, int number4) {
         //write some code here
-        return Double.valueOf(sum(number1,number2,number3,number4)/4);
+        return Double.valueOf((double) sum(number1, number2, number3, number4) /4);
     }
 
     public static void main(String[] args) {
