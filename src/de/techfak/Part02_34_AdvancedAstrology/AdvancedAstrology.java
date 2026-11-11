@@ -5,16 +5,25 @@ public class AdvancedAstrology {
     public static void printStars(int number) {
         // part 1 of the exercise
         for (int i = 1; i <= number; i++) {
-            System.out.print(" ");
+            System.out.print("*");
         }
     }
 
     public static void printSpaces(int number) {
         // part 1 of the exercise
+        for (int i = 1; i <= number; i++) {
+            System.out.print(" ");
+        }
     }
 
     public static void printTriangle(int size) {
         // part 2 of the exercise
+        //  System.out.println(size);
+        for(int i = 1; i<=size;i++){
+            printSpaces(size-i);
+            printStars(i);
+            System.out.println("");
+        }
     }
 
     public static void christmasTree(int height) {
