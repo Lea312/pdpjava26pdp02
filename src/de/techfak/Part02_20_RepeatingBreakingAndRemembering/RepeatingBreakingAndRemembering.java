@@ -15,10 +15,17 @@ public class RepeatingBreakingAndRemembering {
         
         Scanner scanner = new Scanner(System.in);
         int i = 0;
+        int sum = 0;
+        int anz = 0;
         while(i != -1){
             System.out.println("Give numbers:");
             i = Integer.valueOf(scanner.nextLine());
+            sum = sum + i;
+            anz++;
         }
         System.out.println("Thx! Bye!");
+        System.out.println("Sum: " + sum);
+        System.out.println("Numbers : " + anz);
+        System.out.println("Average: " + Double.valueOf(sum)/Double.valueOf(anz));
     }
 }
