@@ -4,6 +4,9 @@ public class AdvancedAstrology {
 
     public static void printStars(int number) {
         // part 1 of the exercise
+        for (int i = 1; i <= number; i++) {
+            System.out.print(" ");
+        }
     }
 
     public static void printSpaces(int number) {
